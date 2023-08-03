@@ -1,0 +1,81 @@
+.circular-box{
+    border: 1px solid rgb(147, 149, 150);
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(147, 149, 150);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.small-box{
+    border: 1px solid rgb(147, 149, 150);
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(147, 149, 150);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.sec{
+    border: 1px solid rgb(147, 149, 150);
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(223, 226, 228);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.input-box{
+    background-color: white;
+}
+.button-box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#search-icon{
+    border-radius: 25px;
+    height: 35px;
+    width: 35px;
+    background-color: rgb(147, 149, 150);
+}
+#watchlist{
+    border: 1px solid rgb(62, 62, 62);
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(208, 211, 213);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.watchlist-items{
+    border: 1px solid rgb(33, 34, 34);
+    border-radius: 25px;
+    background-color: rgb(128, 129, 131);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 0px;
+}
+.watchlist-items h5{
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 5px;
+}
+.watchlist-items p{
+    font-size: 45px;
+    font-weight: 900px;
+    padding-top: 0px;
+    margin: 5px;
+}
+.cross-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+#stock-marcket-dashboard{
+    font-size: 25px;
+}
