@@ -3,16 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import HelloComponent from './HelloComponent';
-import IncreamentDecreamentComponent from './IncreamentDecrementComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App name="jitendra" company="krenai" />
-    <HelloComponent/>
-    <IncreamentDecreamentComponent/>
-
+    <App />
   </React.StrictMode>
 );
 

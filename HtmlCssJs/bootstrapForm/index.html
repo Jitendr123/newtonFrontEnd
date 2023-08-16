@@ -1,0 +1,45 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+<!-- Write your code here -->
+<form class=form-floating>
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="username-input" placeholder="name@example.com">
+        <label for="username-input" >UserName</label>
+    </div>
+    <div class="input-group mb-3">
+  <input type="text" class="form-control" id="email-handler-input" placeholder="Email handler" aria-label="Username">
+  <span class="input-group-text">@</span>
+  <input type="text" class="form-control" id="server-input" placeholder="Server" aria-label="Server">
+    </div>
+      <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="password-input" placeholder="Password...">
+  </div>
+  
+  <div>
+      <label for="college-input" class="form-label" >Select your college name.</label>
+<input id="college-input" class="form-control" list="collge-options" placeholder="Type to search...">
+<datalist id="collge-options">
+  <option value="NIT">
+  <option value="BITS">
+  <option value="IIT">
+  <option value="IIIT">
+  <option value="other">
+</datalist>
+</div> 
+
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" id="conditions-input">
+  <label class="form-check-label" for="flexSwitchCheckDefault">Accept all terms and conditions</label>
+</div>
+<div class="progress">
+  <div id="progress-bar-new" class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="10" aria-valuemax="80"></div>
+</div>
+  <div class="col-auto">
+    <button id="submit-button" type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
