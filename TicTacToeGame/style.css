@@ -11,6 +11,7 @@
     grid-template-rows: repeat(3,100px);
 }
 #big-box div{
+    background-color: rgb(241, 223, 200);
     border: 2px solid black;
     font-size: 65px;
     /* display: flex; */
