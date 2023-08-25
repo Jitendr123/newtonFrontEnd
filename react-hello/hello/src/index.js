@@ -7,7 +7,8 @@ import reportWebVitals from './reportWebVitals';
 // import Child from './ChildrenProps/Child';
 // import IncreamentDecreamentComponent from './IncreamentDecreamentComponent/IncreamentDecrementComponent';
 // import MultipleState from './MultipleState/MultipleState';
-import Parent from './Comunication/Parent';
+// import Parent from './Comunication/Parent';
+import NewParent from './Comunication/ChiildToChild/NewParent'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +17,10 @@ root.render(
     {/* <HelloComponent/> */}
     {/* <IncreamentDecreamentComponent/> */}
     {/* <MultipleState/> */}
-    <Parent/>
+
+    {/* child to parent and parent to child communiction */}
+    {/* <Parent/> */}
+    <NewParent/>
 
 
   </React.StrictMode>
