@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 // import Parent from './ChildrenProps/Parent'
 // import Child from './ChildrenProps/Child';
 // import IncreamentDecreamentComponent from './IncreamentDecreamentComponent/IncreamentDecrementComponent';
-import MultipleState from './MultipleState/MultipleState';
+// import MultipleState from './MultipleState/MultipleState';
+import Parent from './Comunication/Parent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +15,8 @@ root.render(
     {/* <App name="jitendra" company="krenai" /> */}
     {/* <HelloComponent/> */}
     {/* <IncreamentDecreamentComponent/> */}
-    <MultipleState/>
+    {/* <MultipleState/> */}
+    <Parent/>
 
 
   </React.StrictMode>
