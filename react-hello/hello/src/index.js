@@ -1,17 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import HelloComponent from './HelloComponent';
-import IncreamentDecreamentComponent from './IncreamentDecrementComponent';
+// import HelloComponent from './HelloComponent';
+// import Parent from './ChildrenProps/Parent'
+// import Child from './ChildrenProps/Child';
+import IncreamentDecreamentComponent from './IncreamentDecreamentComponent/IncreamentDecrementComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App name="jitendra" company="krenai" />
-    <HelloComponent/>
+    {/* <App name="jitendra" company="krenai" /> */}
+    {/* <HelloComponent/> */}
     <IncreamentDecreamentComponent/>
+
 
   </React.StrictMode>
 );

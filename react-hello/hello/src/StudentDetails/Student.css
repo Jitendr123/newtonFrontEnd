@@ -1,0 +1,7 @@
+.row{
+    background-color: rgb(225, 225, 194);
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    margin: 50px;
+}

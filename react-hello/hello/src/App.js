@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
+import IncreamentDecreamentComponent from './IncreamentDecreamentComponent/IncreamentDecrementComponent';
 
 // React.createElement('div',{},"sdfvgnbhjkkjhg");
 function App(props) {
@@ -7,7 +8,8 @@ function App(props) {
   const { name,company}=props;
   return (
     <div>
-      hello my name is ${name} and i am working in a ${company}
+      hello my name is {name}  and i am working in a {company}<br></br>
+      <IncreamentDecreamentComponent/>
     </div>
   );
 }

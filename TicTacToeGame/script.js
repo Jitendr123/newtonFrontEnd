@@ -7,7 +7,7 @@ var currentPlayer=X_Text;
 
 
     bigBoxEvent.forEach(child=>{
-        child.addEventListener("click", (checkGameOver)=>{
+        child.addEventListener("click", ()=>{
             console.log(child);
             if(child.textContent==""){
                 child.textContent=currentPlayer;

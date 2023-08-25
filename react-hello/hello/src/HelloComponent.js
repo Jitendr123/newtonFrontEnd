@@ -1,10 +1,29 @@
+import React from "react";
+// import  { useState } from "react";
+// import App from "./App";
+import Parent from "./ChildrenProps/Parent";
+import Child from "./ChildrenProps/Child";
+
 //1. online one export default component exists in a module.
 const HelloComponent = () => {
+    // const [name,setName]=useState("Jitendra");
+    // function changeName(){
+    //     setName("Ayush");
+    // }
 
 return (
+    <>
     <div>
         <h1>Hello, I am a functional component!</h1>
+        {/* <button onClick={changeName}>Change Name</button><br></br> */}
+        {/* <App name={name} company="krenai" /> */}
+        {/* <IncreamentDecreamentComponent/> */}
     </div>
+    
+    <Parent name={"Jitendra"}>
+    <Child></Child>
+    </Parent>
+    </>
 );
 }
 export default HelloComponent;
