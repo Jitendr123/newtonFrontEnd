@@ -5,14 +5,16 @@ import reportWebVitals from './reportWebVitals';
 // import HelloComponent from './HelloComponent';
 // import Parent from './ChildrenProps/Parent'
 // import Child from './ChildrenProps/Child';
-import IncreamentDecreamentComponent from './IncreamentDecreamentComponent/IncreamentDecrementComponent';
+// import IncreamentDecreamentComponent from './IncreamentDecreamentComponent/IncreamentDecrementComponent';
+import MultipleState from './MultipleState/MultipleState';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App name="jitendra" company="krenai" /> */}
     {/* <HelloComponent/> */}
-    <IncreamentDecreamentComponent/>
+    {/* <IncreamentDecreamentComponent/> */}
+    <MultipleState/>
 
 
   </React.StrictMode>

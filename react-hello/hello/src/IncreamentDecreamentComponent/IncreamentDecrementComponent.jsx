@@ -1,11 +1,13 @@
 import {useState} from 'react';
 import styles from './IncreamentDecreamentComponent.css'
-import StudentDetails from '../StudentDetails/Student';
+// import StudentDetails from '../StudentDetails/Student';
 
 function IncreamentDecreamentComponent() {
 
     //states
+    // multiple use state 
     const [counter,setCounter]=useState(0);
+    const [operand,setOperand]=useState("neutral");
 
 
     //variable
@@ -14,8 +16,9 @@ function IncreamentDecreamentComponent() {
 
     function increaseNumber(){
         // number++;
-        console.log(counter);
+        // console.log(counter);
         setCounter((counter)=>counter= counter+1);
+        setOperand("increament")
     }
     function decreaseNumber(){
         // number--;
@@ -29,13 +32,14 @@ function IncreamentDecreamentComponent() {
         // }
 
         setCounter(counter-1);
+        setOperand("decreament");
 
     }
 
     //using another component multiple time
-    const students=[{name:'jitendra1',grade:3,year:2},
-                    {name:'prafull',grade:7,year:3},
-                    {name:'vivek',grade:9,year:1}]
+    // const students=[{name:'jitendra1',grade:3,year:2},
+    //                 {name:'prafull',grade:7,year:3},
+    //                 {name:'vivek',grade:9,year:1}]
 
     // console.log(students)
 
@@ -54,16 +58,26 @@ function IncreamentDecreamentComponent() {
         {counter > 0 ? (<h3 className={'st'} >value is positive</h3>):null }
         {/* // above style is working  */}
 
-        {/* conditioon rendering end */}
+        <p>{operand}</p>
 
-        <StudentDetails name={"jitendra"} grade={'5'} year={2}></StudentDetails>
+    {/* ------------------------------------------------------------- */}
+
+
+
+
+        {/* conditioon rendering end */}
+           
+        {/* <StudentDetails name={"jitendra"} grade={'5'} year={2}></StudentDetails> */}
         {/* <StudentDetails name={"ayush"} grade={9} year={4}></StudentDetails>
         <StudentDetails name={'sangam'} grade={8} year={3}></StudentDetails> */}
+
         {/* DOUBT****** here why forEach is not working in place of map.*/}
-        {students.map(student=>{
+        {/* {students.map(student=>{
             return (<StudentDetails name={student.name} grade={student.grade} year={student.year}></StudentDetails>)
 
-        })}
+        })} */}
+
+        {/* ------------------------------------------- */}
 
 
 
