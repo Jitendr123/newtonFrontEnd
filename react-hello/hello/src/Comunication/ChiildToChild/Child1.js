@@ -3,24 +3,25 @@ import styles from "./NewParent1.module.css";
 
 function Child1(props){
     const {val,counterHandler}=props
-    const [counter,setCounter]=useState(val);
-    // setCounter(val);
+    let [counter,setCounter]=useState(val);
     // console.log(counter ,'in child 1', val );
+    counter=val;
     const IncreaseHandler=()=>{
-        setCounter((counter)=>(counter=counter+1)); 
-        // counterHandler(counter);
+        const updated=counter+1;
+        setCounter(updated); 
+        counterHandler(updated);
     }
     const DecreaseHandler=()=>{
-        setCounter((counter)=>(counter-1));
-        // counterHandler(counter);
+        const updated=counter-1;
+        setCounter(updated);
+        counterHandler(updated);
     }
     return(
         <>
         <div className={styles.childBox}>child1 <br></br>
             <button onClick={IncreaseHandler}>Increase</button>
-            {val}    
-            <button onClick={DecreaseHandler}>Decrease</button>
             {counter}
+            <button onClick={DecreaseHandler}>Decrease</button>
         </div>
         </>
     )
