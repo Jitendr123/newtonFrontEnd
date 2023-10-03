@@ -1,0 +1,15 @@
+.main{
+  background-color: rgb(0, 0, 0);
+  height: 4.5rem;
+  text-align: left;
+  color: rgb(193, 189, 189);
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.gener{
+  padding-left: 30px;
+}

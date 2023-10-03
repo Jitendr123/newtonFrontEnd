@@ -1,0 +1,11 @@
+
+form{
+    background-color: rgb(147, 150, 150);
+    border: 3px solid black;
+    margin: 20px;
+    width: 60vw;
+    padding: 100px;
+    /* text-align: center; */
+    font-size: 200%;
+    box-sizing: 200%;
+}
