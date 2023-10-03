@@ -9,7 +9,8 @@ import reportWebVitals from './reportWebVitals';
 // import MultipleState from './MultipleState/MultipleState';
 // import Parent from './Comunication/Parent';
 // import NewParent from './Comunication/ChiildToChild/NewParent'
-import Forms from './Forms/Forms'
+// import Forms from './Forms/Forms'
+import PokemonInfoPage from './Pokemon/PokemonInfoPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,7 +27,11 @@ root.render(
     {/* <NewParent/> */}
 
     {/* forms */}
-    <Forms/>
+
+    {/* <Forms/> */}
+
+    {/* POKEMON */}
+    <PokemonInfoPage />
 
 
   </React.StrictMode>
