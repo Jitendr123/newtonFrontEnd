@@ -1,9 +1,16 @@
 .banner{
     height: 310px;
-    width: 810px;
-    background-color: pink;
+    width: 100%;
+    /* background-color: pink; */
     border-radius: 20px;
     align-items: center;
+    
+}
+.banner img{
+    border-radius: 30px;
+    height: 100%;
+    width: 800px;
+
 }
 .prevBtn{
     height: 40px;
@@ -30,4 +37,14 @@
 }
 .bannerContainer{
     background-color: rgb(23, 22, 22);
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    gap: 8px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    transition: width 2s;
 }
+.bannerContainer::-webkit-scrollbar {
+    display: none;
+  }
