@@ -11,6 +11,8 @@ import reportWebVitals from './reportWebVitals';
 // import NewParent from './Comunication/ChiildToChild/NewParent'
 // import Forms from './Forms/Forms'
 import PokemonInfoPage from './Pokemon/PokemonInfoPage';
+import RouteApp from './RouterApp/RouteApp';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,7 +33,13 @@ root.render(
     {/* <Forms/> */}
 
     {/* POKEMON */}
-    <PokemonInfoPage />
+    {/* <PokemonInfoPage /> */}
+
+    <BrowserRouter>
+    <RouteApp />
+    </BrowserRouter>
+
+
 
 
   </React.StrictMode>
